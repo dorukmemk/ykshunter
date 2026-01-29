@@ -1,0 +1,27 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="128" fill="black"/>
+  
+  <!-- Brain Icon -->
+  <g transform="translate(128, 128)">
+    <!-- Left hemisphere -->
+    <path d="M128 64C128 28.6538 99.3462 0 64 0C28.6538 0 0 28.6538 0 64V192C0 227.346 28.6538 256 64 256C99.3462 256 128 227.346 128 192V64Z" fill="white"/>
+    
+    <!-- Right hemisphere -->
+    <path d="M256 64C256 28.6538 227.346 0 192 0C156.654 0 128 28.6538 128 64V192C128 227.346 156.654 256 192 256C227.346 256 256 227.346 256 192V64Z" fill="white"/>
+    
+    <!-- Neural connections -->
+    <circle cx="64" cy="80" r="12" fill="black"/>
+    <circle cx="64" cy="140" r="12" fill="black"/>
+    <circle cx="64" cy="200" r="12" fill="black"/>
+    <circle cx="192" cy="80" r="12" fill="black"/>
+    <circle cx="192" cy="140" r="12" fill="black"/>
+    <circle cx="192" cy="200" r="12" fill="black"/>
+    
+    <!-- Center connection -->
+    <line x1="64" y1="140" x2="192" y2="140" stroke="black" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Lightning bolt (gamification) -->
+  <path d="M340 180L300 260L320 260L290 340L360 240L340 240L370 180L340 180Z" fill="#FFD700"/>
+</svg>
